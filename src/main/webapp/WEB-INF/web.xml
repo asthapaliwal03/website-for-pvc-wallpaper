@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<display-name>RegisterServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.pvc.wallpaper.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.pvc.wallpaper.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.pvc.wallpaper.servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ProductOperationServlet</servlet-name>
+  	<display-name>ProductOperationServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.pvc.wallpaper.servlet.ProductOperationServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>updateProduct</servlet-name>
+  	<display-name>updateProduct</display-name>
+  	<description></description>
+  	<servlet-class>com.pvc.wallpaper.servlet.updateProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProductOperationServlet</servlet-name>
+  	<url-pattern>/ProductOperationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>updateProduct</servlet-name>
+  	<url-pattern>/updateProduct</url-pattern>
+  </servlet-mapping>
+</web-app>

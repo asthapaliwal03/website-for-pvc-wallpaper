@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+nav{
+	padding-left:20px;
+	padding-right:20;
+}
+.custom-bg{background-color:#4bf8e93d;
+}
+.admin .card:hover{
+	background-color:#e2e2e2;
+	cursor:pointer;}
+.list-group-item.active{
+	background-color:#045f57bd;
+border-color: #045f57bd;
+}	
+.card-columns .card{
+    column-break-inside: avoid;
+    display: inline-block;
+    width: 100%;
+  }
