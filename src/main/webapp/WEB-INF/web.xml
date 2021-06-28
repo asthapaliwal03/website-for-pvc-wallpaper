@@ -13,7 +13,8 @@
   <servlet>
   	<servlet-name>LoginServlet</servlet-name>
   	<display-name>LoginServlet</display-name>
-  	<description></description>
+  	<description>
+  	</description>
   	<servlet-class>com.pvc.wallpaper.servlet.LoginServlet</servlet-class>
   </servlet>
   <servlet>

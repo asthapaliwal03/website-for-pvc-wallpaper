@@ -8,6 +8,7 @@ public class Helper10Words {
 public String get10Words(String s) {
 	String []str=s.split(" ");
 	String p="";
+	
 	if(str.length>=10) {
 		for(int i=0;i<10;i++) {
 			p=p+" "+str[i];

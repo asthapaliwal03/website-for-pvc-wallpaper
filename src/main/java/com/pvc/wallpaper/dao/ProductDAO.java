@@ -12,8 +12,11 @@ import com.pvc.wallpaper.entities.Product;
 public class ProductDAO {
 	private SessionFactory sf;
 
+	
+	
 	public ProductDAO(SessionFactory sf) {
 		super();
+		
 		this.sf = sf;
 	}
 	public int saveProduct(Product pro) {

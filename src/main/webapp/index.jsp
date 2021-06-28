@@ -43,6 +43,7 @@
 			plist=pdao.getProducts();
 			}
 			else{
+				
 				int id=Integer.parseInt(cat.trim());
 				plist=pdao.getProductById(id);
 			}

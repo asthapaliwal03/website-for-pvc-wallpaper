@@ -12,6 +12,7 @@ import com.pvc.wallpaper.entities.Category;
 public class CategoryDAO {
 	private SessionFactory sf;
 
+	
 	public CategoryDAO(SessionFactory sf) {
 		super();
 		this.sf = sf;

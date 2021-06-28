@@ -9,8 +9,10 @@ import org.hibernate.query.Query;
 
 import com.pvc.wallpaper.entities.User;
 
+
 public class UserDAO {
 	private SessionFactory sf;
+	
 	public UserDAO(SessionFactory sf) {
 		this.sf=sf;
 	}
