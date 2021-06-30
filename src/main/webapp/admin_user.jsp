@@ -51,7 +51,7 @@ background-image:linear-gradient(210deg,#d7d2cc,white,#b6fbff,white,#abbaab);
 		<div class="card" data-toggle="tooltip" data-placement="bottom" title="Number of users used these site">
 		 	<div class="card-body text-center">
 		 		<img src="img/user.png" alt="user icon" class="img-fluid" style="max-width:100px;">
-		 		<h3><%=map.get("pr") %></h3>
+		 		<h3><%=map.get("ur") %></h3>
 		 		<h2 class="h2 text-muted">Users</h2>
 		 	</div>
 		</div>
@@ -60,7 +60,7 @@ background-image:linear-gradient(210deg,#d7d2cc,white,#b6fbff,white,#abbaab);
 		<div class="card" data-toggle="tooltip" data-placement="bottom" title="Number of Products">
 		 	<div class="card-body text-center">
 		 		<img src="img/box.png" alt="user icon" class="img-fluid  " style="max-width:100px;">
-		 		<h3><%=map.get("ur") %></h3>
+		 		<h3><%=map.get("pr") %></h3>
 		 		<h2 class="h2 text-muted">Products</h2>
 		 	</div>
 		</div>

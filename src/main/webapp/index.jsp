@@ -18,7 +18,7 @@
 <div class="container-fuild">
 
 <%@include file="component/message.jsp" %>
-<!--  <%@include file="component/slider.jsp" %>-->
+<%@include file="component/slider.jsp" %>
 <div class="row">
 	<!-- Category -->
 	<div class="col-md-3">
